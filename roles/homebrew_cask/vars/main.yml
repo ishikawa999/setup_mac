@@ -1,0 +1,10 @@
+packages:
+  - { name: alfred, state: present }
+  - { name: iterm2, state: present }
+  - { name: google-chrome, state: present }
+  - { name: firegox, state: present }
+  - { name: visual-studio-code, state: present }
+  - { name: slack, state: present }
+  - { name: font-ricty-diminished, state: present }
+  - { name: docker, state: present }
+  - { name: dropbox, state: present }
