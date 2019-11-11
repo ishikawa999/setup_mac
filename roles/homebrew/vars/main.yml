@@ -5,10 +5,12 @@ taps:
   - homebrew/core
 
 packages:
-  - { name: git, state: present }
-  - { name: wget, state: present }
-  - { name: vim, state: present }
-  - { name: tree, state: present }
-  - { name: nkf, state: present }
-  - { name: rbenv, state: present }
-  - { name: ruby-build, state: present }
+  - name: mas
+  - name: git
+  - name: wget
+  - name: vim
+  - name: tree
+  - name: nkf
+  - name: rbenv
+  - name: ruby-build
+  # - name: font-ricty-diminished
