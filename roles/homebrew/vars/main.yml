@@ -13,4 +13,7 @@ packages:
   - name: nkf
   - name: rbenv
   - name: ruby-build
+  # 失敗するためコメントアウト
   # - name: font-ricty-diminished
+  - name: openssl
+  - name: gmp
