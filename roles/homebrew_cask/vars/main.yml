@@ -9,3 +9,6 @@ packages:
   - name: dropbox
   # 文字がぼやける問題があるため、インストール後に問題があればアンインストールして手動で6.2系を入れ直す
   - name: libreoffice-language-pack
+  - name: atok
+  - name: inkdrop
+  - name: kap # Git作成
