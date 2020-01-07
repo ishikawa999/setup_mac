@@ -17,3 +17,5 @@ packages:
   # - name: font-ricty-diminished
   - name: openssl
   - name: gmp
+  - name: zsh
+  - name: zsh-completions
