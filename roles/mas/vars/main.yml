@@ -7,11 +7,13 @@ packages:
     name: Numbers
   - id: 929960914
     name: Red Hot Timer
-  - id: 844918735
-    name: PicGif Lite
+# Kapを利用
+#  - id: 844918735
+#    name: PicGif Lite
   - id: 631940883
     name: ScreenJump
-  - id: 441258766
-    name: Magnet
+#  挙動がおかしいため Rectangle を利用
+#  - id: 441258766
+#    name: Magnet
   - id: 1087080039
     name: Quick View Calendar
