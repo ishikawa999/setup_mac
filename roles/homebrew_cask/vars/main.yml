@@ -12,3 +12,4 @@ packages:
   - name: atok
   - name: inkdrop
   - name: kap # Gif作成
+  - name: rectangle # Magnetの代わり
