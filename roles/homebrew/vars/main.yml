@@ -5,6 +5,7 @@ taps:
   - homebrew/core
 
 packages:
+  - name: awscli
   - name: mas
   - name: git
   - name: wget
@@ -19,3 +20,4 @@ packages:
   - name: gmp
   - name: zsh
   - name: zsh-completions
+  - name: node

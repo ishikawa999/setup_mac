@@ -1,9 +1,10 @@
 packages:
   - name: alfred
   - name: iterm2
-  - name: google-chrome
+  - name: google-chrome-beta
   - name: firefox
   - name: visual-studio-code
+  - name: virtualbox
   - name: slack
   - name: docker
   - name: dropbox
@@ -13,3 +14,4 @@ packages:
   - name: inkdrop
   - name: kap # Gif作成
   - name: rectangle # Magnetの代わり
+  - name: xquartz # diff-pdfを入れるため
