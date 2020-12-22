@@ -4,7 +4,7 @@
 - block:
 
   - name: mas is installed
-    shell: brew list
+    shell: brew list --formula
     register: mas_brew_list
     changed_when: False
     check_mode: no

@@ -1,4 +1,5 @@
 packages:
+  - name: kap
   - name: alfred
   - name: iterm2
   - name: google-chrome-beta

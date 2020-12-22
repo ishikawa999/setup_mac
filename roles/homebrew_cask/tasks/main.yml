@@ -1,11 +1,11 @@
 - block:
 
+  # 失敗扱いになるが、インストール自体は成功する(homebrew_caskが`brew install --cask hoge`に対応するまでの暫定対応)
   - name: homebrew cask install
-    environment:
-      HOMEBREW_CASK_OPTS: --appdir=/Applications
-    homebrew_cask:
+    community.general.homebrew:
       name: "{{ item.name }}"
       state: present
+      install_options: 'cask,appdir=/Applications'
     with_items: "{{ packages }}"
 
   tags:
