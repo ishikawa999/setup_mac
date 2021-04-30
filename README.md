@@ -6,3 +6,4 @@ $ git clone https://github.com/ishikawa999/setup_mac.git
 
 $ sh use_ansible.sh
 ```
+
