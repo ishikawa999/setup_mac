@@ -1,6 +1,11 @@
 # 環境変数は ~/.zshenv
 
+# rbenv path
 eval "$(rbenv init -)"
+
+# homebrew path
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/ishikawa/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # -------------PROMPTの設定----------------------
 # 参考: https://gist.github.com/mollifier/4979906
