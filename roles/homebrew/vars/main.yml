@@ -20,4 +20,5 @@ packages:
   - name: gmp
   - name: zsh
   - name: zsh-completions
+  - name: zsh-autosuggestions
   - name: node
