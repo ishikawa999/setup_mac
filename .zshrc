@@ -53,17 +53,20 @@ PROMPT=$PROMPT' ${vcs_info_msg_0_}
 # プロンプト（右）
 # RPROMPT='%{${fg[green]}%}return:[%?]%{${reset_color}%}'
 
+#######################################
+# zsh-autosuggestions
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ########################################
 # 補完
 
 # zsh-completions(補完機能)の設定
-if [ -e /usr/local/share/zsh-completions ]; then
-    fpath=(/usr/local/share/zsh-completions $fpath)
-fi
-autoload -U compinit
-compinit -u
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
 
+  autoload -Uz compinit
+  compinit
+fi
 # 補完の選択を楽にする
 zstyle ':completion:*' menu select
 
@@ -99,7 +102,7 @@ setopt interactive_comments
 setopt interactivecomments
 
 # 同時に起動しているzshの間でhistoryを共有する
-setopt share_history
+# setopt share_history
 
 # cd無しでもディレクトリ移動
 setopt auto_cd
@@ -116,7 +119,3 @@ alias vi='vim'
 alias ls='ls -G'
 alias la='ls -a'
 alias ll='ls -lh'
-# 処理確認
-alias rm='rm -i'
-alias mv='mv -i'
-alias cp='cp -i'
