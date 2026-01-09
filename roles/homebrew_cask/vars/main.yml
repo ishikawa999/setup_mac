@@ -1,18 +1,12 @@
 packages:
-  - name: kap
   - name: alfred
   - name: iterm2
-  - name: google-chrome-beta
   - name: firefox
   - name: visual-studio-code
-  - name: virtualbox
   - name: slack
   - name: docker
-  - name: dropbox
   # 文字がぼやける問題があるため、インストール後に問題があればアンインストールして手動で6.2系を入れ直す
   - name: libreoffice-language-pack
   - name: atok
   - name: inkdrop
-  - name: kap # Gif作成
   - name: rectangle # Magnetの代わり
-  - name: xquartz # diff-pdfを入れるため
